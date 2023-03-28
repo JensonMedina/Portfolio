@@ -1,0 +1,40 @@
+{
+    "name":{
+        "name": "Hola, soy <span>Jenson </span> un desarrollador backend"
+    },
+    "presentation":{
+        "presentation": "soy un apasionado desarrollador backend con experiencia en .NET y otras tecnologías. Dedico mi tiempo a la práctica y construcción de proyectos y nunca dejo de aprender para mejorar mis habilidades. Además, me considero una persona colaborativa y con habilidades para trabajar en equipo. Soy capaz de resolver problemas de manera efectiva y de adaptarme a diferentes situaciones. Busco oportunidades que me desafíen y me permitan seguir creciendo en el mundo de la programación."
+    },
+    "btn-text":{
+        "text": "Descargar CV",
+        "text-contact": "Enviar"
+    },
+    "main-title":{
+        "title-about": "Sobre <span>mi</span>",
+        "title-portfolio": "Mi <span>Portafolio</span>",
+        "title-contact": "Contacta <span>conmigo</span>"
+    },
+    "about-container":{
+        "title": "Informacion sobre mi",
+        "first-p": "Mi carrera en programación comenzó hace dos años, cuando descubrí esta apasionante disciplina y decidí emprender un camino autodidacta. Me sumergí en el vasto mundo de la informática, utilizando diversos recursos disponibles en línea y realizando cursos pagos, enfocándome principalmente en .NET. Esta tecnología me fascinó por todo lo que ofrece, y también seguí aprendiendo sobre otras tecnologías como  C#, JavaScript, y base de datos como SQL Server. </br>Además, cuento con una sólida formación en inglés, lo que me permite tener conversaciones fluidas en este idioma. Actualmente, estoy a punto de comenzar una tecnicatura en programación en la Universidad Tecnológica Nacional, lo que me permitirá seguir profundizando mis conocimientos en este campo.",
+        "second-p": "Una de mis principales fortalezas es mi capacidad de aprendizaje: siempre estoy dispuesto a adquirir nuevas destrezas y habilidades, y puedo compaginar distintos proyectos y funciones con facilidad y rapidez. Me considero una persona independiente, proactiva y orientada a la excelencia, lo que me lleva a resolver problemas con creatividad y a no conformarme con que las cosas queden simplemente 'hechas'.",
+        "third-p": "También tengo habilidades blandas que considero valiosas en cualquier entorno de trabajo, como la autogestión, la buena administración del tiempo, el trabajo en equipo y la capacidad de adaptarme rápidamente a situaciones nuevas. Estoy convencido de que mis habilidades y cualidades pueden aportar mucho a cualquier equipo de trabajo en el mundo de la informática."
+    },
+    "stat-title":{
+        "title": "Mis habilidades"
+    },
+    "port-text":{
+        "text": "Aquí hay algunos de mis trabajos."
+    },
+    "contact-con":{
+        "subtitle": "Contactame aqui",
+        "text": "Estoy en busqueda de oportunidades de trabajo donde pueda contribuir, aprender y crecer. Si cuenta con una oferta que se ajuste a mi perfil, no dude en ponerse en contacto conmigo a través de mis redes sociales o rellenando el formulario de contacto que encontrarás a continuación. Le responderé a la mayor brevedad posible"
+    },
+    "contact-icon":{
+        "title-loc":"Ubicacion:",
+        "text-loc": "Rosario, Argentina",
+        "title-education": "Educacion:",
+        "title-lang": "Idiomas:",
+        "text-lang": "Ingles - Español"
+    }
+}

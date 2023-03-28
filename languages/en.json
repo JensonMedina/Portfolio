@@ -1,0 +1,40 @@
+{
+    "name":{
+        "name": "Hi, I'm <span>Jenson</span> a backend developer"
+    },
+    "presentation":{
+        "presentation": "I'm a passionate backend developer with experience in .NET and other technologies. I dedicate my time to practicing and building projects, and I never stop learning to improve my skills. Additionally, I consider myself a collaborative team player, with the ability to effectively solve problems and adapt to different situations. I am looking for opportunities that challenge me and allow me to continue growing in the world of programming."
+    },
+    "btn-text":{
+        "text": "Download CV",
+        "text-contact": "Send"
+    },
+    "main-title":{
+        "title-about": "About <span>me</span>",
+        "title-portfolio": "My <span>Portfolio</span>",
+        "title-contact": "Contact <span>me</span>"
+    },
+    "about-container":{
+        "title": "Information About me",
+        "first-p": "My career in programming began two years ago when I discovered this exciting field and decided to embark on a self-taught path. I immersed myself in the vast world of computing, using various resources available online and taking paid courses, with a focus mainly on .NET. This technology fascinated me for all that it offers, and I continued to learn about other technologies such as C#, JavaScript, and databases like SQL Server.</br>In addition, I have a solid background in English, which allows me to have fluent conversations in this language. Currently, I am about to begin a technical degree in programming at the National Technological University to deepen my knowledge further.",
+        "second-p": "One of my main strengths is my ability to learn. I am always willing to acquire new skills and abilities and can easily and quickly combine different projects and functions. I consider myself an independent, proactive, and excellence-oriented person. This mindset leads me to be a creative problem solver and not settle for just getting things 'done'.",
+        "third-p": "I also possess valuable soft skills such as self-management, good time management, teamwork, and the ability to adapt quickly to new situations. I am convinced that my skills and qualities can bring a lot to any IT team."
+    },
+    "stat-title":{
+        "title": "My skills"
+    },
+    "port-text":{
+        "text": "Here is some of my work"
+    },
+    "contact-con":{
+        "subtitle": "Contact me here",
+        "text": "I am open to job opportunities where I can contribute, learn and grow. If you have an offer that fits my profile, do not hesitate to contact me through my social networks or by filling out the contact form below. I will get back to you as soon as possible."
+    },
+    "contact-icon":{
+        "title-loc":"Location:",
+        "text-loc": "Rosario, Argentina",
+        "title-education": "Education:",
+        "title-lang": "Languages:",
+        "text-lang": "English - Spanish"
+    }
+}

@@ -552,10 +552,6 @@ section {
   header .header-content .right-header {
     padding: 0;
   }
-  .theme-btn {
-    width: 50px;
-    height: 50px;
-  }
   .header-content {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
@@ -642,5 +638,15 @@ section {
 @media screen and (max-width: 500px) {
   .contact-content-con .left-contact .contact-info .contact-item {
     flex-direction: column;
+  }
+  .actions {
+    top: 9%;
+    right: -3%;
+    width: 60px;
+    flex-direction: column;
+  }
+  .actions .action-item {
+    width: 40px;
+    height: 40px;
   }
 }/*# sourceMappingURL=estilo.css.map */

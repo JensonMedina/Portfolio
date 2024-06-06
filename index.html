@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jenson Medina</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav id="menu">
+        <ul>
+          <li><a href="#article-secciones-resumen">Resumen</a></li>
+          <li><a href="#article-secciones-proyectos">Proyectos</a></li>
+          <li><a href="#article-secciones-conocimientos">Conocimientos</a></li>
+          <li><a href="#footer-contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mnu" onclick="eventoMenu()" id="btnMnu">≡</button>
+    </header>
+    <main>
+      <section id="section-main-image">
+        <!-- full width imagen -->
+        <img
+          src="images/hero.png"
+          alt="Jenson Medina"
+          class="profile-picture"
+        />
+        <h1>Jenson Medina</h1>
+        <h2>Estudiante de programación</h2>
+      </section>
+      <section id="section-secciones">
+        <div class="container">
+          <article
+            id="article-secciones-resumen"
+            class="article-section-secciones"
+          >
+            <h2>Resumen</h2>
+            <p>
+              ¡Hola! Soy Jenson, un apasionado desarrollador con experiencia en
+              el mundo de la programación. Comencé mi viaje con la programación
+              a través del curso gratuito de Maxi Programa, donde adquirí mis
+              primeras habilidades y desarrollé una sólida base lógica.
+              <br /><br />Contaba con un background en Economía, lo que me
+              proporcionó una ventaja, ya que estaba familiarizado con conceptos
+              matemáticos y estadísticos, facilitando mi comprensión de la
+              lógica de programación. Posteriormente, avancé a través de los
+              niveles 1 y 2, donde adquirí conocimientos fundamentales de C# y
+              trabajé con tecnologías como .NET Framework, WinForms y SQL
+              Server. Al descubrir la Tecnicatura en Programación en la UTN,
+              decidí inscribirme en la carrera. <br /><br />En la universidad,
+              amplié mis habilidades trabajando con diferentes lenguajes como C,
+              C++, y Python, explorando conceptos avanzados como programación
+              orientada a objetos, polimorfismo y modularidad. En el
+              laboratorio, me sumergí en el desarrollo web con HTML, CSS, JS y
+              Bootstrap. Actualmente, estoy cursando el nivel 3 de Maxi,
+              centrándome en tecnologías web como ASP.NET y WebForms. Además, he
+              profundizado en HTML, CSS y JavaScript por cuenta propia,
+              complementando mi formación académica.
+            </p>
+          </article>
+
+          <article
+            id="article-secciones-proyectos"
+            class="article-section-secciones"
+          >
+            <h2>Proyectos</h2>
+            <div class="list-wrapper-projects">
+              <ul class="list-projects">
+                <!--Flexbox list item-->
+                <li class="list-item-projects">
+                  <!-- <div class="list-item__image-projects">
+                    <img src="/images/project-1.jpg" alt="Mercado Libre" />
+                  </div> -->
+                  <div class="list-item__content-projects">
+                    <h4>BullCoin</h4>
+                    <h5>
+                      Tecnologías: ASP.NET - C# - CSS - JavaScript - SQL Server
+                    </h5>
+                    <h6>
+                      <a
+                        href="https://github.com/JensonMedina/BullCoin"
+                        target="_blank"
+                        >Haz clic aquí</a
+                      >
+                    </h6>
+                    <p>
+                      BullCoin es un cotizador de divisas, se pueden consultar
+                      las cotizaciones de distintos tipos de monedas, por
+                      ejemplo el dólar, euro, entre otros. Las cotizaciones se
+                      pueden guardar en favoritos y visualizar en la página de
+                      mis archivos. Luego, en la página de informes, se realiza
+                      un informe con las cotizaciones guardadas en favoritos, en
+                      donde se indica la variación de las divisas en distintas
+                      fechas.
+                    </p>
+                  </div>
+                </li>
+                <li class="list-item-projects">
+                  <!-- <div class="list-item__image-projects">
+                    <img src="/images/project-1.jpg" alt="Mercado Libre" />
+                  </div> -->
+                  <div class="list-item__content-projects">
+                    <h4>Ferretería "De eso no tengo"</h4>
+                    <h5>Tecnologías: C# - WinForms - SQL Server</h5>
+                    <h6>
+                      <a
+                        href="https://github.com/JensonMedina/Ferreteria-DeEsoNoTengo"
+                        >Haz clic aquí</a
+                      >
+                    </h6>
+                    <p>
+                      Ferretería "De eso no tengo" es una aplicación de
+                      escritorio de gestión de artículos para una ferretería. La
+                      aplicación te permite dar de alta artículos, modificarlos
+                      o eliminarlos. Se pueden buscar artículos con un filtro de
+                      búsqueda, también hay una opción para poder cambiar el
+                      precio de varios artículos al mismo tiempo por el criterio
+                      de marca.
+                    </p>
+                  </div>
+                </li>
+                <li class="list-item-projects">
+                  <!-- <div class="list-item__image-projects">
+                    <img src="/images/project-1.jpg" alt="Mercado Libre" />
+                  </div> -->
+                  <div class="list-item__content-projects">
+                    <h4>ARGENNTUM</h4>
+                    <h5>Tecnologías: HTML - CSS - Bootstrap - JavaScript</h5>
+                    <h6>
+                      <a
+                        href="https://github.com/JensonMedina/Argenntum"
+                        target="_blank"
+                        >Haz clic aquí</a
+                      >
+                    </h6>
+                    <p>
+                      Argenntum es el sitio web de un banco ficticio. Se cuenta
+                      su historia, se ofrecen distintos servicios, se vende como
+                      el mejor banco y te invita constantemente a que te unas
+                      como cliente. Este proyecto fue desarrollado en grupo para
+                      el curso de FullStack Python de Codo a Codo.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article id="article-secciones-conocimientos">
+            <h2>Conocimientos</h2>
+            <div class="contenedor-conocimientos">
+              <div class="card-conocimientos">
+                <div class="title-conocimientos">BackEnd</div>
+                <div class="cuerpo-conocimientos">
+                  <p>C</p>
+                  <p>C++</p>
+                  <p>C#</p>
+                  <p>Python</p>
+                  <p>.NET Framework</p>
+                </div>
+                <div class="pie-conocimientos"></div>
+              </div>
+              <div class="card-conocimientos">
+                <div class="title-conocimientos">DataBases</div>
+                <div class="cuerpo-conocimientos">
+                  <p>SQL Server</p>
+                  <p>MySQL</p>
+                </div>
+                <div class="pie-conocimientos"></div>
+              </div>
+              <div class="card-conocimientos">
+                <div class="title-conocimientos">FrontEnd</div>
+                <div class="cuerpo-conocimientos">
+                  <p>HTML</p>
+                  <p>CSS</p>
+                  <p>Bootstrap</p>
+                  <p>JavaScript</p>
+                </div>
+                <div class="pie-conocimientos"></div>
+              </div>
+              <div class="card-conocimientos">
+                <div class="title-conocimientos">Herramientas</div>
+                <div class="cuerpo-conocimientos">
+                  <p>Git</p>
+                  <p>GitHub</p>
+                </div>
+                <div class="pie-conocimientos"></div>
+              </div>
+              <div class="card-conocimientos">
+                <div class="title-conocimientos">Habilidades Blandas</div>
+                <div class="cuerpo-conocimientos">
+                  <p>Trabajo en equipo</p>
+                  <p>Compañerismo</p>
+                  <p>Excelencia</p>
+                  <p>Capacidad de liderar un equipo</p>
+                </div>
+                <div class="pie-conocimientos"></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer id="footer-contacto">
+      <div class="container-footer">
+        <h2>Datos de Contacto</h2>
+        <div class="contact-data">
+          <div class="contact-info">
+            <ul>
+              <li>
+                <b>LinkedIn: </b
+                ><a
+                  href="https://www.linkedin.com/in/jensonmedina/"
+                  target="_blank"
+                  >https://www.linkedin.com/in/jensonmedina/</a
+                >
+              </li>
+              <li>
+                <b>Email: </b
+                ><a href="mailto:medinajenson74@gmail.com" target="_blank"
+                  >medinajenson74@gmail.com</a
+                >
+              </li>
+              <li>
+                <b>GitHub: </b
+                ><a href="https://github.com/JensonMedina" target="_blank"
+                  >https://github.com/JensonMedina</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="contact-form">
+            <form action="#" name="frmContacto">
+              <div class="form-control">
+                <label for="name">Nombre</label>
+                <br />
+                <input type="text" name="name" />
+              </div>
+              <div class="form-control">
+                <label for="phone">Teléfono</label>
+                <br />
+                <input type="number" name="phone" />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <br />
+                <input type="email" name="email" id="email" />
+              </div>
+              <div class="form-control">
+                <label for="mensaje">Mensaje</label>
+                <br />
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  rows="5"
+                  cols="33"
+                ></textarea>
+              </div>
+              <button>
+                <a href="#">Enviar</a>
+              </button>
+            </form>
+            <br />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>

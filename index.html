@@ -7,9 +7,20 @@
     <title>Jenson Medina</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/index.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
   </head>
 
   <body>
+    <script type="text/javascript">
+      (function() {
+          emailjs.init({
+            publicKey: "rrL5B_jzEcYwdjx0Q",
+          });
+      })();
+  </script>
     <header>
       <!-- navbar -->
       <nav id="menu">
@@ -234,35 +245,28 @@
             </ul>
           </div>
           <div class="contact-form">
-            <form action="#" name="frmContacto">
+            <form action="Post" name="frmContacto" id="frmContacto">
               <div class="form-control">
                 <label for="name">Nombre</label>
                 <br />
-                <input type="text" name="name" />
-              </div>
-              <div class="form-control">
-                <label for="phone">Teléfono</label>
-                <br />
-                <input type="number" name="phone" />
+                <input type="text" name="user_name" />
               </div>
               <div class="form-control">
                 <label for="email">Email</label>
                 <br />
-                <input type="email" name="email" id="email" />
+                <input type="email" name="user_email" id="user_email" />
               </div>
               <div class="form-control">
                 <label for="mensaje">Mensaje</label>
                 <br />
                 <textarea
-                  id="mensaje"
-                  name="mensaje"
+                  id="message"
+                  name="message"
                   rows="5"
                   cols="33"
                 ></textarea>
               </div>
-              <button>
-                <a href="#">Enviar</a>
-              </button>
+              <input type="submit" value="Enviar">
             </form>
             <br />
           </div>

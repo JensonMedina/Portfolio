@@ -182,8 +182,9 @@ nav ul li a:hover {
 
 .list-item__content-projects p {
   margin-top: 5px;
-  color: #aaa;
+  color: #333;
   margin-bottom: 0;
+  font-size: 18px;
 }
 
 /*CONOCIMIENTOS*/

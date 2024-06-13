@@ -114,6 +114,7 @@ nav ul li a:hover {
 
 .article-section-secciones p {
   text-align: justify;
+  font-size: 18px;
 }
 
 .article-section-secciones p::first-letter {
@@ -177,12 +178,12 @@ nav ul li a:hover {
 
 .list-item__content-projects h4 {
   margin-top: 15px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .list-item__content-projects p {
   margin-top: 5px;
-  color: #333;
+  color: #222;
   margin-bottom: 0;
   font-size: 18px;
 }
@@ -283,31 +284,32 @@ nav ul li a:hover {
   padding: 10px 0;
 }
 
+
 .contact-form form .form-control input {
   border-radius: 3px;
   border: 0.3px solid #34495e;
   width: 250px;
+  font-size: 18px;
 }
 
 .contact-form form .form-control textarea {
   border-radius: 3px;
   border: 0.3px solid #34495e;
   width: 250px;
+  font-size: 18px;
 }
 
 .contact-form form .form-control label {
   margin-right: 15px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
 }
 
-.contact-form form button {
+.contact-form form .btn-send {
   margin-top: 15px;
   color: #212f3c;
   padding: 2px 30px;
-}
-button a {
-  text-decoration: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 425px) {
